@@ -48,9 +48,10 @@ for i in range(1, 6):
 print(sum)
 
 # 2
-y = 1
 x = int(input())
-for x in range(1, x):
-    y = x*(x-1)
-    x -= 1
-print(y)
+fact = x
+for i in range(1, x):
+    fact = fact * i
+print(fact)
+
+# 3
